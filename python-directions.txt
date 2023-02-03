@@ -1,0 +1,30 @@
+
+Steps to run heart disease program in anaconda prompt
+
+1) Download Anaconda software from 
+https://www.anaconda.com/download/
+
+2) Install it (while installing select option for admin(second option))
+
+3) After installation open anaconda prompt and type the following commands
+	conda -V
+	conda search "^python$"(It will list all the python versions make sure it consists of python 3.6)
+	conda create -n yourenvname python=3.6 anaconda(this command is used to create environment in python)
+
+To run the project
+
+Activate the environment by using  activate yourenvname
+
+To install package use    conda install tk  (tk is the package name needed for the project)
+
+Go to the project directory by using cd
+
+Run the project   	python heart-gui.py 
+
+After gui window opens
+
+1) Select the database
+2) Select classifier
+3) Close the graph which has opened
+4) Enter the details of the patients
+5) Click on the button - result will be displayed at the bottom
